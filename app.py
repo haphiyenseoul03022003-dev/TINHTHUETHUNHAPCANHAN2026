@@ -96,7 +96,7 @@ for b in brackets:
         else:
             break
 
-    net_salary = total_income - total_insurance - tax
+net_salary = total_income - total_insurance - tax
     
     return {
         "total_income": total_income, "bhxh": bhxh, "bhyt": bhyt, "bhtn": bhtn,
